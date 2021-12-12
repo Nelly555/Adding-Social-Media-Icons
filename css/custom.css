@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    font-family: Source Sans pro;
+    background: #282828;
+    background: linear-gradient(-45deg, #EE7752,#E73C7E,#23A6D5,#23D5AB);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+}
+@-webkit-keyframes Gradient{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+p{
+    color:Gray;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-weight: lighter;
+    font-size: 40px;
+    margin-top: 0;
+}
+.media{
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-53% , -5%);
+}
+li{
+    list-style: none;
+    margin: 10px 10px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 30px 20px;
+    color:DodgerBlue;
+    border: 1px solid SlateBlue;
+    border-radius: 50%;
+    transition: .5s;
+}
+li:hover{
+    color: #292929;
+    border: 1px solid #292929;
+    transition: 5s; 
+}
+
